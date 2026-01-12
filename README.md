@@ -1,9 +1,41 @@
+<!-- ===================== ANIMATED BANNER ===================== -->
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/254502541?v=4&size=128" alt="SAKTI AI Logo" width="96" height="96" />
+  <svg width="100%" height="180" viewBox="0 0 1200 180" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#7c3aed">
+          <animate attributeName="stop-color" values="#7c3aed;#ec4899;#7c3aed" dur="6s" repeatCount="indefinite" />
+        </stop>
+        <stop offset="100%" stop-color="#ec4899">
+          <animate attributeName="stop-color" values="#ec4899;#7c3aed;#ec4899" dur="6s" repeatCount="indefinite" />
+        </stop>
+      </linearGradient>
+    </defs>
+
+    <rect width="1200" height="180" fill="url(#grad)" opacity="0.18"/>
+    <text x="50%" y="52%" dominant-baseline="middle" text-anchor="middle"
+          font-size="48" font-family="Segoe UI, Arial, sans-serif" fill="#ffffff">
+      SAKTI AI
+    </text>
+    <text x="50%" y="72%" dominant-baseline="middle" text-anchor="middle"
+          font-size="18" font-family="Segoe UI, Arial, sans-serif" fill="#e5e7eb">
+      Sovereign AI & On-Chain Intelligence for UMKM and Healthcare
+    </text>
+  </svg>
 </p>
 
-<h1 align="center">SAKTI AI</h1>
-<p align="center"><strong>Sovereign AI & On-Chain Intelligence for UMKM and Healthcare</strong></p>
+<!-- ===================== LOGO ===================== -->
+<p align="center">
+  <img src="https://avatars.githubusercontent.com/u/254502541?v=4&size=128" width="96" height="96" alt="SAKTI AI Logo"/>
+</p>
+
+<!-- ===================== BADGES ===================== -->
+<p align="center">
+  <img src="https://img.shields.io/badge/AI-Intelligence-purple" />
+  <img src="https://img.shields.io/badge/Web3-On--Chain-black" />
+  <img src="https://img.shields.io/badge/Healthcare-AI-green" />
+  <img src="https://img.shields.io/badge/UMKM-SME-blue" />
+</p>
 
 <p align="center">
   <a href="https://t.me/Sakti_Ai">Telegram</a> •
@@ -16,46 +48,34 @@
 
 ## 🌐 Overview (EN)
 
-**SAKTI AI** is a modular AI ecosystem focused on **UMKM (SMEs)** and **Healthcare**, combining  
-**AI automation**, **on-chain intelligence**, and **real-time analysis**.
-
-The platform is built for **real usage**, enabling users to analyze risk, monitor markets, and automate decisions with transparency and auditability.
+**SAKTI AI** is a modular and sovereign AI ecosystem focused on **UMKM (SMEs)** and **Healthcare**.  
+It combines **AI automation**, **on-chain intelligence**, and **real-time analysis** to support
+transparent, auditable, and production-ready decision systems.
 
 ---
 
 ## 🌏 Gambaran Umum (ID)
 
-**SAKTI AI** adalah ekosistem AI modular yang berfokus pada **UMKM** dan **kesehatan**, menggabungkan  
-**otomasi AI**, **on-chain intelligence**, dan **analisis real-time**.
-
-Platform ini dirancang untuk **penggunaan nyata**, membantu analisis risiko, pemantauan market, dan otomasi keputusan secara transparan.
+**SAKTI AI** adalah ekosistem AI modular dan sovereign untuk **UMKM** dan **kesehatan**.  
+Menggabungkan **otomasi AI**, **on-chain intelligence**, dan **analisis real-time** untuk sistem
+yang transparan dan siap digunakan di dunia nyata.
 
 ---
 
 ## 🧩 Ecosystem Modules
 
-### 🟢 Live Modules
-
-#### **SAKTI Token Scan (Solana)**
-- SPL token security & risk scan  
-- Clear flags & basic verification  
-- Practical checks for traders & UMKM crypto
-
-#### **SAKTI AI Market On-chain Analysis (Solana)**
-- Market intelligence based on on-chain activity  
-- Structured insights for decision support
-
----
+### 🟢 Live
+- **SAKTI Token Scan (Solana)** – SPL token security & risk analysis  
+- **SAKTI AI Market On-chain Analysis (Solana)** – Market intelligence berbasis aktivitas on-chain  
 
 ### ⏳ Coming Soon
-
-- **SAKTI AI Health** – AI-assisted health guidance (non-diagnostic)  
-- **SAKTI AI Finance** – Financial planning & UMKM insights  
-- **SAKTI Token** – Ecosystem utility & access  
-- **SAKTI Web Security** – Website risk & security scanning  
+- **SAKTI AI Health** – AI guidance (non-diagnostic)  
+- **SAKTI AI Finance** – Financial & asset planning for UMKM  
+- **SAKTI Token** – Ecosystem utility & access token  
+- **SAKTI Web Security** – Website risk & vulnerability scanning  
 - **SAKTI Web3 Tools** – Fast Solana & Web3 utilities  
 - **SAKTI Token Scan (EVM)** – Multi-chain token analysis  
-- **SAKTI AI Market Analysis (EVM)** – EVM on-chain intelligence
+- **SAKTI AI Market Analysis (EVM)** – EVM on-chain intelligence  
 
 ---
 
@@ -63,10 +83,10 @@ Platform ini dirancang untuk **penggunaan nyata**, membantu analisis risiko, pem
 
 ```mermaid
 flowchart LR
-    A[User / UMKM / Healthcare] --> B[SAKTI AI Core]
-    B --> C[Token Scan]
-    B --> D[Market On-chain Analysis]
-    B --> E[AI Health & Finance]
-    C --> F[Blockchain Networks]
-    D --> F
-    E --> G[Dashboards & Insights]
+  A[Users / UMKM / Healthcare] --> B[SAKTI AI Core]
+  B --> C[Token Scan]
+  B --> D[Market On-chain Analysis]
+  B --> E[AI Health & Finance]
+  C --> F[Blockchain Networks]
+  D --> F
+  E --> G[Dashboards & Insights]
