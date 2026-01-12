@@ -1,28 +1,4 @@
-<!-- ===================== ANIMATED BANNER ===================== -->
-<p align="center">
-  <svg width="100%" height="180" viewBox="0 0 1200 180" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#7c3aed">
-          <animate attributeName="stop-color" values="#7c3aed;#ec4899;#7c3aed" dur="6s" repeatCount="indefinite" />
-        </stop>
-        <stop offset="100%" stop-color="#ec4899">
-          <animate attributeName="stop-color" values="#ec4899;#7c3aed;#ec4899" dur="6s" repeatCount="indefinite" />
-        </stop>
-      </linearGradient>
-    </defs>
 
-    <rect width="1200" height="180" fill="url(#grad)" opacity="0.18"/>
-    <text x="50%" y="52%" dominant-baseline="middle" text-anchor="middle"
-          font-size="48" font-family="Segoe UI, Arial, sans-serif" fill="#ffffff">
-      SAKTI AI
-    </text>
-    <text x="50%" y="72%" dominant-baseline="middle" text-anchor="middle"
-          font-size="18" font-family="Segoe UI, Arial, sans-serif" fill="#e5e7eb">
-      Sovereign AI & On-Chain Intelligence for UMKM and Healthcare
-    </text>
-  </svg>
-</p>
 
 <!-- ===================== LOGO ===================== -->
 <p align="center">
