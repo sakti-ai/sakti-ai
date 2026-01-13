@@ -22,14 +22,6 @@
 
 ---
 
-## 🌐 Overview (EN)
-
-**SAKTI AI** is a modular and sovereign AI ecosystem focused on **UMKM (SMEs)** and **Healthcare**.  
-It combines **AI automation**, **on-chain intelligence**, and **real-time analysis** to support
-transparent, auditable, and production-ready decision systems.
-
----
-
 ## 🌏 Gambaran Umum (ID)
 
 **SAKTI AI** adalah ekosistem AI modular dan sovereign untuk **UMKM** dan **kesehatan**.  
